@@ -1,6 +1,6 @@
 * { box-sizing: border-box; font-family: cursive;}
 body { background-color: #ebdfe8; }
-h1 { margin-bottom: 40px ; margin-top: 40px; text-align: center;}
+h1 { margin-bottom: 30px ; margin-top: 20px; text-align: center; font-size: 175%; font-weight: 900;}
 .row { width: 100%; }
   p {
   	background-color: #a64292;
@@ -10,12 +10,14 @@ h1 { margin-bottom: 40px ; margin-top: 40px; text-align: center;}
     }
 span.title { 
     position: relative; bottom: 11px; left: 11px;
-    padding: 5px; 
+    font-size: 125%;
+    font-weight: bold;
+    padding: 2px; 
     border: 1px solid black; 
     background-color: #6a3d99;
-    width: 35%;
+    width: 40%;
     text-align: center;
-    height: 30px; 
+    height: 35px; 
     float: right;
 	    }
 @media (min-width: 992px) {
