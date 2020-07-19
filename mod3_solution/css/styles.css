@@ -1,0 +1,48 @@
+.b1 {background-color: gray;}
+.navbar-toggle {background-color: gray;}
+.navbar-default .navbar-toggle .icon-bar {background-color: black;}
+.navbar-default .navbar-toggle {border-color: black;}
+#brand {color: black; font-size: 2em; padding-left: 30px; font-weight: bold;}
+#collapsable-nav {float: left; font-weight: 30px}
+.main-content {background-color: gray; height: 600px; position: relative; padding: 10px; margin: 10px 0px 30px 0px;}
+.container {margin: -30px 25px 10px 20px;} 
+hr {border: 1px solid black; margin: 0px; width: 100vw;}
+h1 {margin-bottom: 30px;}
+.in-link {position: absolute; bottom: 7px; right: 10px; font-size: 1.5em; color: black;}
+.col-sm-6, .col-sm-12, .col-md-4 {padding-left: 10px; padding-right: 10px;}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+a {
+    color: black;
+}
+h3 {position: relative; bottom: 5px}
+@media (min-width: 1200px) {
+.container {
+    width: auto;}
+    .b2 {background-color: gray;}
+}
+@media (min-width: 992px) {
+.conteiner {
+    width: auto;} 
+    .b2 {background-color: gray;}
+}
+@media (min-width: 768px) {
+.container {
+    width: auto;}
+.b2 {background-color: gray;}
+li {width: 100%;}
+}
+@media (max-width: 768px) {
+.container {margin: -30px 50px 10px 50px;} 
+li {width: 100%;}
+}
