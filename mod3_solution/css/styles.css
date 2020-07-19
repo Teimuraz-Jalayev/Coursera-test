@@ -4,7 +4,7 @@
 .navbar-default .navbar-toggle {border-color: black;}
 #brand {color: black; font-size: 2em; padding-left: 30px; font-weight: bold;}
 #collapsable-nav {float: left; font-weight: 30px}
-.main-content {background-color: gray; height: 600px; position: relative; padding: 10px; margin: 10px 0px 30px 0px;}
+.main-content {background-color: gray; height: auto; min-height: 700px; position: relative; padding: 10px; margin: 10px 0px 30px 0px; word-wrap: break-word;}
 .container {margin: -30px 25px 10px 20px;} 
 hr {border: 1px solid black; margin: 0px; width: 100vw;}
 h1 {margin-bottom: 30px;}
@@ -26,6 +26,7 @@ a {
     color: black;
 }
 h3 {position: relative; bottom: 5px}
+p {word-wrap: break-word;}
 @media (min-width: 1200px) {
 .container {
     width: auto;}
